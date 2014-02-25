@@ -13,3 +13,8 @@ tar xvjf kiwix.tbz2
 # Should we start kiwix here, as a daemon? Uncomment this line later.
 # ./kiwix --port=4000 &
 
+# Install LAN-Learn
+
+git clone https://github.com/lanacademy/lan-learn.git
+cp -rf lan-learn/ /var/www/
+
