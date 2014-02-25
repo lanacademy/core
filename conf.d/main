@@ -1,3 +1,15 @@
 # LAN Academy TKL installation script
 
+# Set up directory for apps
+
+mkdir app-src
+cd app-src
+
+# Install kiwix 
+
+wget "http://downloads.sourceforge.net/project/kiwix/0.9_rc2/kiwix-0.9-rc2-linux-i686.tar.bz2" -O kiwix.tbz2
+tar xvjf kiwix.tbz2
+
+# Should we start kiwix here, as a daemon? Uncomment this line later.
+# ./kiwix --port=4000 &
 
