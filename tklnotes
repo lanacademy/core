@@ -1,0 +1,11 @@
+*Had to install:
+     deck
+     mksquashfs
+     pyproject-common
+     squashfs-tools
+     genisoimage
+
+Had to pull turnkeylinux's "fab" package from github, make it, and copy its share directory into /usr/share/fab
+
+had to make /etc/useraufs.conf and add
+"allow_user root" to it.
